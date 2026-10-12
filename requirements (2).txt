@@ -1,0 +1,5 @@
+yfinance
+gradio
+openpyxl
+pandas
+numpy
