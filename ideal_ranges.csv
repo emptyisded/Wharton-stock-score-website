@@ -1,0 +1,595 @@
+market,sector,indicator_key,indicator,low,high
+Global,Technology,pe,P/E (trailing),10.0,25
+Global,Technology,fwd_pe,Forward P/E,8.0,22
+Global,Technology,pb,Price / Book,1.0,4
+Global,Technology,ps,Price / Sales,1.0,5
+Global,Technology,ev_ebitda,EV / EBITDA,6.0,15
+Global,Technology,peg,PEG ratio,0.5,1.5
+Global,Technology,roe,Return on equity,15.0,
+Global,Technology,roa,Return on assets,5.0,
+Global,Technology,roic,Return on invested capital,10.0,
+Global,Technology,gross_m,Gross margin,30.0,
+Global,Technology,op_m,Operating margin,15.0,
+Global,Technology,net_m,Net margin,10.0,
+Global,Technology,rev_g,Revenue growth (YoY),5.0,
+Global,Technology,earn_g,Earnings growth (YoY),5.0,
+Global,Technology,eps_g,Quarterly earnings growth,5.0,
+Global,Technology,de,Debt / Equity,0.0,1
+Global,Technology,current,Current ratio,1.2,3
+Global,Technology,quick,Quick ratio,1.0,2.5
+Global,Technology,int_cov,Interest coverage,3.0,
+Global,Technology,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Technology,fcf_y,Free cash flow yield,3.0,
+Global,Technology,div_y,Dividend yield,1.0,
+Global,Technology,ret,Price return,0.0,
+Global,Technology,vol,Volatility (annualised),0.0,35
+Global,Technology,mdd,Maximum drawdown,-25.0,0
+Global,Technology,rsi,RSI (14),40.0,65
+Global,Technology,sharpe,Sharpe ratio,1.0,
+Global,Healthcare,pe,P/E (trailing),10.0,25
+Global,Healthcare,fwd_pe,Forward P/E,8.0,22
+Global,Healthcare,pb,Price / Book,1.0,4
+Global,Healthcare,ps,Price / Sales,1.0,5
+Global,Healthcare,ev_ebitda,EV / EBITDA,6.0,15
+Global,Healthcare,peg,PEG ratio,0.5,1.5
+Global,Healthcare,roe,Return on equity,15.0,
+Global,Healthcare,roa,Return on assets,5.0,
+Global,Healthcare,roic,Return on invested capital,10.0,
+Global,Healthcare,gross_m,Gross margin,30.0,
+Global,Healthcare,op_m,Operating margin,15.0,
+Global,Healthcare,net_m,Net margin,10.0,
+Global,Healthcare,rev_g,Revenue growth (YoY),5.0,
+Global,Healthcare,earn_g,Earnings growth (YoY),5.0,
+Global,Healthcare,eps_g,Quarterly earnings growth,5.0,
+Global,Healthcare,de,Debt / Equity,0.0,1
+Global,Healthcare,current,Current ratio,1.2,3
+Global,Healthcare,quick,Quick ratio,1.0,2.5
+Global,Healthcare,int_cov,Interest coverage,3.0,
+Global,Healthcare,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Healthcare,fcf_y,Free cash flow yield,3.0,
+Global,Healthcare,div_y,Dividend yield,1.0,
+Global,Healthcare,ret,Price return,0.0,
+Global,Healthcare,vol,Volatility (annualised),0.0,35
+Global,Healthcare,mdd,Maximum drawdown,-25.0,0
+Global,Healthcare,rsi,RSI (14),40.0,65
+Global,Healthcare,sharpe,Sharpe ratio,1.0,
+Global,Financial Services,pe,P/E (trailing),10.0,25
+Global,Financial Services,fwd_pe,Forward P/E,8.0,22
+Global,Financial Services,pb,Price / Book,1.0,4
+Global,Financial Services,ps,Price / Sales,1.0,5
+Global,Financial Services,ev_ebitda,EV / EBITDA,6.0,15
+Global,Financial Services,peg,PEG ratio,0.5,1.5
+Global,Financial Services,roe,Return on equity,15.0,
+Global,Financial Services,roa,Return on assets,5.0,
+Global,Financial Services,roic,Return on invested capital,10.0,
+Global,Financial Services,gross_m,Gross margin,30.0,
+Global,Financial Services,op_m,Operating margin,15.0,
+Global,Financial Services,net_m,Net margin,10.0,
+Global,Financial Services,rev_g,Revenue growth (YoY),5.0,
+Global,Financial Services,earn_g,Earnings growth (YoY),5.0,
+Global,Financial Services,eps_g,Quarterly earnings growth,5.0,
+Global,Financial Services,de,Debt / Equity,0.0,1
+Global,Financial Services,current,Current ratio,1.2,3
+Global,Financial Services,quick,Quick ratio,1.0,2.5
+Global,Financial Services,int_cov,Interest coverage,3.0,
+Global,Financial Services,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Financial Services,fcf_y,Free cash flow yield,3.0,
+Global,Financial Services,div_y,Dividend yield,1.0,
+Global,Financial Services,ret,Price return,0.0,
+Global,Financial Services,vol,Volatility (annualised),0.0,35
+Global,Financial Services,mdd,Maximum drawdown,-25.0,0
+Global,Financial Services,rsi,RSI (14),40.0,65
+Global,Financial Services,sharpe,Sharpe ratio,1.0,
+Global,Consumer Cyclical,pe,P/E (trailing),10.0,25
+Global,Consumer Cyclical,fwd_pe,Forward P/E,8.0,22
+Global,Consumer Cyclical,pb,Price / Book,1.0,4
+Global,Consumer Cyclical,ps,Price / Sales,1.0,5
+Global,Consumer Cyclical,ev_ebitda,EV / EBITDA,6.0,15
+Global,Consumer Cyclical,peg,PEG ratio,0.5,1.5
+Global,Consumer Cyclical,roe,Return on equity,15.0,
+Global,Consumer Cyclical,roa,Return on assets,5.0,
+Global,Consumer Cyclical,roic,Return on invested capital,10.0,
+Global,Consumer Cyclical,gross_m,Gross margin,30.0,
+Global,Consumer Cyclical,op_m,Operating margin,15.0,
+Global,Consumer Cyclical,net_m,Net margin,10.0,
+Global,Consumer Cyclical,rev_g,Revenue growth (YoY),5.0,
+Global,Consumer Cyclical,earn_g,Earnings growth (YoY),5.0,
+Global,Consumer Cyclical,eps_g,Quarterly earnings growth,5.0,
+Global,Consumer Cyclical,de,Debt / Equity,0.0,1
+Global,Consumer Cyclical,current,Current ratio,1.2,3
+Global,Consumer Cyclical,quick,Quick ratio,1.0,2.5
+Global,Consumer Cyclical,int_cov,Interest coverage,3.0,
+Global,Consumer Cyclical,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Consumer Cyclical,fcf_y,Free cash flow yield,3.0,
+Global,Consumer Cyclical,div_y,Dividend yield,1.0,
+Global,Consumer Cyclical,ret,Price return,0.0,
+Global,Consumer Cyclical,vol,Volatility (annualised),0.0,35
+Global,Consumer Cyclical,mdd,Maximum drawdown,-25.0,0
+Global,Consumer Cyclical,rsi,RSI (14),40.0,65
+Global,Consumer Cyclical,sharpe,Sharpe ratio,1.0,
+Global,Consumer Defensive,pe,P/E (trailing),10.0,25
+Global,Consumer Defensive,fwd_pe,Forward P/E,8.0,22
+Global,Consumer Defensive,pb,Price / Book,1.0,4
+Global,Consumer Defensive,ps,Price / Sales,1.0,5
+Global,Consumer Defensive,ev_ebitda,EV / EBITDA,6.0,15
+Global,Consumer Defensive,peg,PEG ratio,0.5,1.5
+Global,Consumer Defensive,roe,Return on equity,15.0,
+Global,Consumer Defensive,roa,Return on assets,5.0,
+Global,Consumer Defensive,roic,Return on invested capital,10.0,
+Global,Consumer Defensive,gross_m,Gross margin,30.0,
+Global,Consumer Defensive,op_m,Operating margin,15.0,
+Global,Consumer Defensive,net_m,Net margin,10.0,
+Global,Consumer Defensive,rev_g,Revenue growth (YoY),5.0,
+Global,Consumer Defensive,earn_g,Earnings growth (YoY),5.0,
+Global,Consumer Defensive,eps_g,Quarterly earnings growth,5.0,
+Global,Consumer Defensive,de,Debt / Equity,0.0,1
+Global,Consumer Defensive,current,Current ratio,1.2,3
+Global,Consumer Defensive,quick,Quick ratio,1.0,2.5
+Global,Consumer Defensive,int_cov,Interest coverage,3.0,
+Global,Consumer Defensive,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Consumer Defensive,fcf_y,Free cash flow yield,3.0,
+Global,Consumer Defensive,div_y,Dividend yield,1.0,
+Global,Consumer Defensive,ret,Price return,0.0,
+Global,Consumer Defensive,vol,Volatility (annualised),0.0,35
+Global,Consumer Defensive,mdd,Maximum drawdown,-25.0,0
+Global,Consumer Defensive,rsi,RSI (14),40.0,65
+Global,Consumer Defensive,sharpe,Sharpe ratio,1.0,
+Global,Industrials,pe,P/E (trailing),10.0,25
+Global,Industrials,fwd_pe,Forward P/E,8.0,22
+Global,Industrials,pb,Price / Book,1.0,4
+Global,Industrials,ps,Price / Sales,1.0,5
+Global,Industrials,ev_ebitda,EV / EBITDA,6.0,15
+Global,Industrials,peg,PEG ratio,0.5,1.5
+Global,Industrials,roe,Return on equity,15.0,
+Global,Industrials,roa,Return on assets,5.0,
+Global,Industrials,roic,Return on invested capital,10.0,
+Global,Industrials,gross_m,Gross margin,30.0,
+Global,Industrials,op_m,Operating margin,15.0,
+Global,Industrials,net_m,Net margin,10.0,
+Global,Industrials,rev_g,Revenue growth (YoY),5.0,
+Global,Industrials,earn_g,Earnings growth (YoY),5.0,
+Global,Industrials,eps_g,Quarterly earnings growth,5.0,
+Global,Industrials,de,Debt / Equity,0.0,1
+Global,Industrials,current,Current ratio,1.2,3
+Global,Industrials,quick,Quick ratio,1.0,2.5
+Global,Industrials,int_cov,Interest coverage,3.0,
+Global,Industrials,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Industrials,fcf_y,Free cash flow yield,3.0,
+Global,Industrials,div_y,Dividend yield,1.0,
+Global,Industrials,ret,Price return,0.0,
+Global,Industrials,vol,Volatility (annualised),0.0,35
+Global,Industrials,mdd,Maximum drawdown,-25.0,0
+Global,Industrials,rsi,RSI (14),40.0,65
+Global,Industrials,sharpe,Sharpe ratio,1.0,
+Global,Energy,pe,P/E (trailing),10.0,25
+Global,Energy,fwd_pe,Forward P/E,8.0,22
+Global,Energy,pb,Price / Book,1.0,4
+Global,Energy,ps,Price / Sales,1.0,5
+Global,Energy,ev_ebitda,EV / EBITDA,6.0,15
+Global,Energy,peg,PEG ratio,0.5,1.5
+Global,Energy,roe,Return on equity,15.0,
+Global,Energy,roa,Return on assets,5.0,
+Global,Energy,roic,Return on invested capital,10.0,
+Global,Energy,gross_m,Gross margin,30.0,
+Global,Energy,op_m,Operating margin,15.0,
+Global,Energy,net_m,Net margin,10.0,
+Global,Energy,rev_g,Revenue growth (YoY),5.0,
+Global,Energy,earn_g,Earnings growth (YoY),5.0,
+Global,Energy,eps_g,Quarterly earnings growth,5.0,
+Global,Energy,de,Debt / Equity,0.0,1
+Global,Energy,current,Current ratio,1.2,3
+Global,Energy,quick,Quick ratio,1.0,2.5
+Global,Energy,int_cov,Interest coverage,3.0,
+Global,Energy,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Energy,fcf_y,Free cash flow yield,3.0,
+Global,Energy,div_y,Dividend yield,1.0,
+Global,Energy,ret,Price return,0.0,
+Global,Energy,vol,Volatility (annualised),0.0,35
+Global,Energy,mdd,Maximum drawdown,-25.0,0
+Global,Energy,rsi,RSI (14),40.0,65
+Global,Energy,sharpe,Sharpe ratio,1.0,
+Global,Utilities,pe,P/E (trailing),10.0,25
+Global,Utilities,fwd_pe,Forward P/E,8.0,22
+Global,Utilities,pb,Price / Book,1.0,4
+Global,Utilities,ps,Price / Sales,1.0,5
+Global,Utilities,ev_ebitda,EV / EBITDA,6.0,15
+Global,Utilities,peg,PEG ratio,0.5,1.5
+Global,Utilities,roe,Return on equity,15.0,
+Global,Utilities,roa,Return on assets,5.0,
+Global,Utilities,roic,Return on invested capital,10.0,
+Global,Utilities,gross_m,Gross margin,30.0,
+Global,Utilities,op_m,Operating margin,15.0,
+Global,Utilities,net_m,Net margin,10.0,
+Global,Utilities,rev_g,Revenue growth (YoY),5.0,
+Global,Utilities,earn_g,Earnings growth (YoY),5.0,
+Global,Utilities,eps_g,Quarterly earnings growth,5.0,
+Global,Utilities,de,Debt / Equity,0.0,1
+Global,Utilities,current,Current ratio,1.2,3
+Global,Utilities,quick,Quick ratio,1.0,2.5
+Global,Utilities,int_cov,Interest coverage,3.0,
+Global,Utilities,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Utilities,fcf_y,Free cash flow yield,3.0,
+Global,Utilities,div_y,Dividend yield,1.0,
+Global,Utilities,ret,Price return,0.0,
+Global,Utilities,vol,Volatility (annualised),0.0,35
+Global,Utilities,mdd,Maximum drawdown,-25.0,0
+Global,Utilities,rsi,RSI (14),40.0,65
+Global,Utilities,sharpe,Sharpe ratio,1.0,
+Global,Real Estate,pe,P/E (trailing),10.0,25
+Global,Real Estate,fwd_pe,Forward P/E,8.0,22
+Global,Real Estate,pb,Price / Book,1.0,4
+Global,Real Estate,ps,Price / Sales,1.0,5
+Global,Real Estate,ev_ebitda,EV / EBITDA,6.0,15
+Global,Real Estate,peg,PEG ratio,0.5,1.5
+Global,Real Estate,roe,Return on equity,15.0,
+Global,Real Estate,roa,Return on assets,5.0,
+Global,Real Estate,roic,Return on invested capital,10.0,
+Global,Real Estate,gross_m,Gross margin,30.0,
+Global,Real Estate,op_m,Operating margin,15.0,
+Global,Real Estate,net_m,Net margin,10.0,
+Global,Real Estate,rev_g,Revenue growth (YoY),5.0,
+Global,Real Estate,earn_g,Earnings growth (YoY),5.0,
+Global,Real Estate,eps_g,Quarterly earnings growth,5.0,
+Global,Real Estate,de,Debt / Equity,0.0,1
+Global,Real Estate,current,Current ratio,1.2,3
+Global,Real Estate,quick,Quick ratio,1.0,2.5
+Global,Real Estate,int_cov,Interest coverage,3.0,
+Global,Real Estate,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Real Estate,fcf_y,Free cash flow yield,3.0,
+Global,Real Estate,div_y,Dividend yield,1.0,
+Global,Real Estate,ret,Price return,0.0,
+Global,Real Estate,vol,Volatility (annualised),0.0,35
+Global,Real Estate,mdd,Maximum drawdown,-25.0,0
+Global,Real Estate,rsi,RSI (14),40.0,65
+Global,Real Estate,sharpe,Sharpe ratio,1.0,
+Global,Basic Materials,pe,P/E (trailing),10.0,25
+Global,Basic Materials,fwd_pe,Forward P/E,8.0,22
+Global,Basic Materials,pb,Price / Book,1.0,4
+Global,Basic Materials,ps,Price / Sales,1.0,5
+Global,Basic Materials,ev_ebitda,EV / EBITDA,6.0,15
+Global,Basic Materials,peg,PEG ratio,0.5,1.5
+Global,Basic Materials,roe,Return on equity,15.0,
+Global,Basic Materials,roa,Return on assets,5.0,
+Global,Basic Materials,roic,Return on invested capital,10.0,
+Global,Basic Materials,gross_m,Gross margin,30.0,
+Global,Basic Materials,op_m,Operating margin,15.0,
+Global,Basic Materials,net_m,Net margin,10.0,
+Global,Basic Materials,rev_g,Revenue growth (YoY),5.0,
+Global,Basic Materials,earn_g,Earnings growth (YoY),5.0,
+Global,Basic Materials,eps_g,Quarterly earnings growth,5.0,
+Global,Basic Materials,de,Debt / Equity,0.0,1
+Global,Basic Materials,current,Current ratio,1.2,3
+Global,Basic Materials,quick,Quick ratio,1.0,2.5
+Global,Basic Materials,int_cov,Interest coverage,3.0,
+Global,Basic Materials,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Basic Materials,fcf_y,Free cash flow yield,3.0,
+Global,Basic Materials,div_y,Dividend yield,1.0,
+Global,Basic Materials,ret,Price return,0.0,
+Global,Basic Materials,vol,Volatility (annualised),0.0,35
+Global,Basic Materials,mdd,Maximum drawdown,-25.0,0
+Global,Basic Materials,rsi,RSI (14),40.0,65
+Global,Basic Materials,sharpe,Sharpe ratio,1.0,
+Global,Communication Services,pe,P/E (trailing),10.0,25
+Global,Communication Services,fwd_pe,Forward P/E,8.0,22
+Global,Communication Services,pb,Price / Book,1.0,4
+Global,Communication Services,ps,Price / Sales,1.0,5
+Global,Communication Services,ev_ebitda,EV / EBITDA,6.0,15
+Global,Communication Services,peg,PEG ratio,0.5,1.5
+Global,Communication Services,roe,Return on equity,15.0,
+Global,Communication Services,roa,Return on assets,5.0,
+Global,Communication Services,roic,Return on invested capital,10.0,
+Global,Communication Services,gross_m,Gross margin,30.0,
+Global,Communication Services,op_m,Operating margin,15.0,
+Global,Communication Services,net_m,Net margin,10.0,
+Global,Communication Services,rev_g,Revenue growth (YoY),5.0,
+Global,Communication Services,earn_g,Earnings growth (YoY),5.0,
+Global,Communication Services,eps_g,Quarterly earnings growth,5.0,
+Global,Communication Services,de,Debt / Equity,0.0,1
+Global,Communication Services,current,Current ratio,1.2,3
+Global,Communication Services,quick,Quick ratio,1.0,2.5
+Global,Communication Services,int_cov,Interest coverage,3.0,
+Global,Communication Services,nd_ebitda,Net debt / EBITDA,0.0,3
+Global,Communication Services,fcf_y,Free cash flow yield,3.0,
+Global,Communication Services,div_y,Dividend yield,1.0,
+Global,Communication Services,ret,Price return,0.0,
+Global,Communication Services,vol,Volatility (annualised),0.0,35
+Global,Communication Services,mdd,Maximum drawdown,-25.0,0
+Global,Communication Services,rsi,RSI (14),40.0,65
+Global,Communication Services,sharpe,Sharpe ratio,1.0,
+India,Technology,pe,P/E (trailing),10.0,25
+India,Technology,fwd_pe,Forward P/E,8.0,22
+India,Technology,pb,Price / Book,1.0,4
+India,Technology,ps,Price / Sales,1.0,5
+India,Technology,ev_ebitda,EV / EBITDA,6.0,15
+India,Technology,peg,PEG ratio,0.5,1.5
+India,Technology,roe,Return on equity,15.0,
+India,Technology,roa,Return on assets,5.0,
+India,Technology,roic,Return on invested capital,10.0,
+India,Technology,gross_m,Gross margin,30.0,
+India,Technology,op_m,Operating margin,15.0,
+India,Technology,net_m,Net margin,10.0,
+India,Technology,rev_g,Revenue growth (YoY),5.0,
+India,Technology,earn_g,Earnings growth (YoY),5.0,
+India,Technology,eps_g,Quarterly earnings growth,5.0,
+India,Technology,de,Debt / Equity,0.0,1
+India,Technology,current,Current ratio,1.2,3
+India,Technology,quick,Quick ratio,1.0,2.5
+India,Technology,int_cov,Interest coverage,3.0,
+India,Technology,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Technology,fcf_y,Free cash flow yield,3.0,
+India,Technology,div_y,Dividend yield,1.0,
+India,Technology,ret,Price return,0.0,
+India,Technology,vol,Volatility (annualised),0.0,35
+India,Technology,mdd,Maximum drawdown,-25.0,0
+India,Technology,rsi,RSI (14),40.0,65
+India,Technology,sharpe,Sharpe ratio,1.0,
+India,Healthcare,pe,P/E (trailing),10.0,25
+India,Healthcare,fwd_pe,Forward P/E,8.0,22
+India,Healthcare,pb,Price / Book,1.0,4
+India,Healthcare,ps,Price / Sales,1.0,5
+India,Healthcare,ev_ebitda,EV / EBITDA,6.0,15
+India,Healthcare,peg,PEG ratio,0.5,1.5
+India,Healthcare,roe,Return on equity,15.0,
+India,Healthcare,roa,Return on assets,5.0,
+India,Healthcare,roic,Return on invested capital,10.0,
+India,Healthcare,gross_m,Gross margin,30.0,
+India,Healthcare,op_m,Operating margin,15.0,
+India,Healthcare,net_m,Net margin,10.0,
+India,Healthcare,rev_g,Revenue growth (YoY),5.0,
+India,Healthcare,earn_g,Earnings growth (YoY),5.0,
+India,Healthcare,eps_g,Quarterly earnings growth,5.0,
+India,Healthcare,de,Debt / Equity,0.0,1
+India,Healthcare,current,Current ratio,1.2,3
+India,Healthcare,quick,Quick ratio,1.0,2.5
+India,Healthcare,int_cov,Interest coverage,3.0,
+India,Healthcare,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Healthcare,fcf_y,Free cash flow yield,3.0,
+India,Healthcare,div_y,Dividend yield,1.0,
+India,Healthcare,ret,Price return,0.0,
+India,Healthcare,vol,Volatility (annualised),0.0,35
+India,Healthcare,mdd,Maximum drawdown,-25.0,0
+India,Healthcare,rsi,RSI (14),40.0,65
+India,Healthcare,sharpe,Sharpe ratio,1.0,
+India,Financial Services,pe,P/E (trailing),10.0,25
+India,Financial Services,fwd_pe,Forward P/E,8.0,22
+India,Financial Services,pb,Price / Book,1.0,4
+India,Financial Services,ps,Price / Sales,1.0,5
+India,Financial Services,ev_ebitda,EV / EBITDA,6.0,15
+India,Financial Services,peg,PEG ratio,0.5,1.5
+India,Financial Services,roe,Return on equity,15.0,
+India,Financial Services,roa,Return on assets,5.0,
+India,Financial Services,roic,Return on invested capital,10.0,
+India,Financial Services,gross_m,Gross margin,30.0,
+India,Financial Services,op_m,Operating margin,15.0,
+India,Financial Services,net_m,Net margin,10.0,
+India,Financial Services,rev_g,Revenue growth (YoY),5.0,
+India,Financial Services,earn_g,Earnings growth (YoY),5.0,
+India,Financial Services,eps_g,Quarterly earnings growth,5.0,
+India,Financial Services,de,Debt / Equity,0.0,1
+India,Financial Services,current,Current ratio,1.2,3
+India,Financial Services,quick,Quick ratio,1.0,2.5
+India,Financial Services,int_cov,Interest coverage,3.0,
+India,Financial Services,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Financial Services,fcf_y,Free cash flow yield,3.0,
+India,Financial Services,div_y,Dividend yield,1.0,
+India,Financial Services,ret,Price return,0.0,
+India,Financial Services,vol,Volatility (annualised),0.0,35
+India,Financial Services,mdd,Maximum drawdown,-25.0,0
+India,Financial Services,rsi,RSI (14),40.0,65
+India,Financial Services,sharpe,Sharpe ratio,1.0,
+India,Consumer Cyclical,pe,P/E (trailing),10.0,25
+India,Consumer Cyclical,fwd_pe,Forward P/E,8.0,22
+India,Consumer Cyclical,pb,Price / Book,1.0,4
+India,Consumer Cyclical,ps,Price / Sales,1.0,5
+India,Consumer Cyclical,ev_ebitda,EV / EBITDA,6.0,15
+India,Consumer Cyclical,peg,PEG ratio,0.5,1.5
+India,Consumer Cyclical,roe,Return on equity,15.0,
+India,Consumer Cyclical,roa,Return on assets,5.0,
+India,Consumer Cyclical,roic,Return on invested capital,10.0,
+India,Consumer Cyclical,gross_m,Gross margin,30.0,
+India,Consumer Cyclical,op_m,Operating margin,15.0,
+India,Consumer Cyclical,net_m,Net margin,10.0,
+India,Consumer Cyclical,rev_g,Revenue growth (YoY),5.0,
+India,Consumer Cyclical,earn_g,Earnings growth (YoY),5.0,
+India,Consumer Cyclical,eps_g,Quarterly earnings growth,5.0,
+India,Consumer Cyclical,de,Debt / Equity,0.0,1
+India,Consumer Cyclical,current,Current ratio,1.2,3
+India,Consumer Cyclical,quick,Quick ratio,1.0,2.5
+India,Consumer Cyclical,int_cov,Interest coverage,3.0,
+India,Consumer Cyclical,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Consumer Cyclical,fcf_y,Free cash flow yield,3.0,
+India,Consumer Cyclical,div_y,Dividend yield,1.0,
+India,Consumer Cyclical,ret,Price return,0.0,
+India,Consumer Cyclical,vol,Volatility (annualised),0.0,35
+India,Consumer Cyclical,mdd,Maximum drawdown,-25.0,0
+India,Consumer Cyclical,rsi,RSI (14),40.0,65
+India,Consumer Cyclical,sharpe,Sharpe ratio,1.0,
+India,Consumer Defensive,pe,P/E (trailing),10.0,25
+India,Consumer Defensive,fwd_pe,Forward P/E,8.0,22
+India,Consumer Defensive,pb,Price / Book,1.0,4
+India,Consumer Defensive,ps,Price / Sales,1.0,5
+India,Consumer Defensive,ev_ebitda,EV / EBITDA,6.0,15
+India,Consumer Defensive,peg,PEG ratio,0.5,1.5
+India,Consumer Defensive,roe,Return on equity,15.0,
+India,Consumer Defensive,roa,Return on assets,5.0,
+India,Consumer Defensive,roic,Return on invested capital,10.0,
+India,Consumer Defensive,gross_m,Gross margin,30.0,
+India,Consumer Defensive,op_m,Operating margin,15.0,
+India,Consumer Defensive,net_m,Net margin,10.0,
+India,Consumer Defensive,rev_g,Revenue growth (YoY),5.0,
+India,Consumer Defensive,earn_g,Earnings growth (YoY),5.0,
+India,Consumer Defensive,eps_g,Quarterly earnings growth,5.0,
+India,Consumer Defensive,de,Debt / Equity,0.0,1
+India,Consumer Defensive,current,Current ratio,1.2,3
+India,Consumer Defensive,quick,Quick ratio,1.0,2.5
+India,Consumer Defensive,int_cov,Interest coverage,3.0,
+India,Consumer Defensive,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Consumer Defensive,fcf_y,Free cash flow yield,3.0,
+India,Consumer Defensive,div_y,Dividend yield,1.0,
+India,Consumer Defensive,ret,Price return,0.0,
+India,Consumer Defensive,vol,Volatility (annualised),0.0,35
+India,Consumer Defensive,mdd,Maximum drawdown,-25.0,0
+India,Consumer Defensive,rsi,RSI (14),40.0,65
+India,Consumer Defensive,sharpe,Sharpe ratio,1.0,
+India,Industrials,pe,P/E (trailing),10.0,25
+India,Industrials,fwd_pe,Forward P/E,8.0,22
+India,Industrials,pb,Price / Book,1.0,4
+India,Industrials,ps,Price / Sales,1.0,5
+India,Industrials,ev_ebitda,EV / EBITDA,6.0,15
+India,Industrials,peg,PEG ratio,0.5,1.5
+India,Industrials,roe,Return on equity,15.0,
+India,Industrials,roa,Return on assets,5.0,
+India,Industrials,roic,Return on invested capital,10.0,
+India,Industrials,gross_m,Gross margin,30.0,
+India,Industrials,op_m,Operating margin,15.0,
+India,Industrials,net_m,Net margin,10.0,
+India,Industrials,rev_g,Revenue growth (YoY),5.0,
+India,Industrials,earn_g,Earnings growth (YoY),5.0,
+India,Industrials,eps_g,Quarterly earnings growth,5.0,
+India,Industrials,de,Debt / Equity,0.0,1
+India,Industrials,current,Current ratio,1.2,3
+India,Industrials,quick,Quick ratio,1.0,2.5
+India,Industrials,int_cov,Interest coverage,3.0,
+India,Industrials,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Industrials,fcf_y,Free cash flow yield,3.0,
+India,Industrials,div_y,Dividend yield,1.0,
+India,Industrials,ret,Price return,0.0,
+India,Industrials,vol,Volatility (annualised),0.0,35
+India,Industrials,mdd,Maximum drawdown,-25.0,0
+India,Industrials,rsi,RSI (14),40.0,65
+India,Industrials,sharpe,Sharpe ratio,1.0,
+India,Energy,pe,P/E (trailing),10.0,25
+India,Energy,fwd_pe,Forward P/E,8.0,22
+India,Energy,pb,Price / Book,1.0,4
+India,Energy,ps,Price / Sales,1.0,5
+India,Energy,ev_ebitda,EV / EBITDA,6.0,15
+India,Energy,peg,PEG ratio,0.5,1.5
+India,Energy,roe,Return on equity,15.0,
+India,Energy,roa,Return on assets,5.0,
+India,Energy,roic,Return on invested capital,10.0,
+India,Energy,gross_m,Gross margin,30.0,
+India,Energy,op_m,Operating margin,15.0,
+India,Energy,net_m,Net margin,10.0,
+India,Energy,rev_g,Revenue growth (YoY),5.0,
+India,Energy,earn_g,Earnings growth (YoY),5.0,
+India,Energy,eps_g,Quarterly earnings growth,5.0,
+India,Energy,de,Debt / Equity,0.0,1
+India,Energy,current,Current ratio,1.2,3
+India,Energy,quick,Quick ratio,1.0,2.5
+India,Energy,int_cov,Interest coverage,3.0,
+India,Energy,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Energy,fcf_y,Free cash flow yield,3.0,
+India,Energy,div_y,Dividend yield,1.0,
+India,Energy,ret,Price return,0.0,
+India,Energy,vol,Volatility (annualised),0.0,35
+India,Energy,mdd,Maximum drawdown,-25.0,0
+India,Energy,rsi,RSI (14),40.0,65
+India,Energy,sharpe,Sharpe ratio,1.0,
+India,Utilities,pe,P/E (trailing),10.0,25
+India,Utilities,fwd_pe,Forward P/E,8.0,22
+India,Utilities,pb,Price / Book,1.0,4
+India,Utilities,ps,Price / Sales,1.0,5
+India,Utilities,ev_ebitda,EV / EBITDA,6.0,15
+India,Utilities,peg,PEG ratio,0.5,1.5
+India,Utilities,roe,Return on equity,15.0,
+India,Utilities,roa,Return on assets,5.0,
+India,Utilities,roic,Return on invested capital,10.0,
+India,Utilities,gross_m,Gross margin,30.0,
+India,Utilities,op_m,Operating margin,15.0,
+India,Utilities,net_m,Net margin,10.0,
+India,Utilities,rev_g,Revenue growth (YoY),5.0,
+India,Utilities,earn_g,Earnings growth (YoY),5.0,
+India,Utilities,eps_g,Quarterly earnings growth,5.0,
+India,Utilities,de,Debt / Equity,0.0,1
+India,Utilities,current,Current ratio,1.2,3
+India,Utilities,quick,Quick ratio,1.0,2.5
+India,Utilities,int_cov,Interest coverage,3.0,
+India,Utilities,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Utilities,fcf_y,Free cash flow yield,3.0,
+India,Utilities,div_y,Dividend yield,1.0,
+India,Utilities,ret,Price return,0.0,
+India,Utilities,vol,Volatility (annualised),0.0,35
+India,Utilities,mdd,Maximum drawdown,-25.0,0
+India,Utilities,rsi,RSI (14),40.0,65
+India,Utilities,sharpe,Sharpe ratio,1.0,
+India,Real Estate,pe,P/E (trailing),10.0,25
+India,Real Estate,fwd_pe,Forward P/E,8.0,22
+India,Real Estate,pb,Price / Book,1.0,4
+India,Real Estate,ps,Price / Sales,1.0,5
+India,Real Estate,ev_ebitda,EV / EBITDA,6.0,15
+India,Real Estate,peg,PEG ratio,0.5,1.5
+India,Real Estate,roe,Return on equity,15.0,
+India,Real Estate,roa,Return on assets,5.0,
+India,Real Estate,roic,Return on invested capital,10.0,
+India,Real Estate,gross_m,Gross margin,30.0,
+India,Real Estate,op_m,Operating margin,15.0,
+India,Real Estate,net_m,Net margin,10.0,
+India,Real Estate,rev_g,Revenue growth (YoY),5.0,
+India,Real Estate,earn_g,Earnings growth (YoY),5.0,
+India,Real Estate,eps_g,Quarterly earnings growth,5.0,
+India,Real Estate,de,Debt / Equity,0.0,1
+India,Real Estate,current,Current ratio,1.2,3
+India,Real Estate,quick,Quick ratio,1.0,2.5
+India,Real Estate,int_cov,Interest coverage,3.0,
+India,Real Estate,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Real Estate,fcf_y,Free cash flow yield,3.0,
+India,Real Estate,div_y,Dividend yield,1.0,
+India,Real Estate,ret,Price return,0.0,
+India,Real Estate,vol,Volatility (annualised),0.0,35
+India,Real Estate,mdd,Maximum drawdown,-25.0,0
+India,Real Estate,rsi,RSI (14),40.0,65
+India,Real Estate,sharpe,Sharpe ratio,1.0,
+India,Basic Materials,pe,P/E (trailing),10.0,25
+India,Basic Materials,fwd_pe,Forward P/E,8.0,22
+India,Basic Materials,pb,Price / Book,1.0,4
+India,Basic Materials,ps,Price / Sales,1.0,5
+India,Basic Materials,ev_ebitda,EV / EBITDA,6.0,15
+India,Basic Materials,peg,PEG ratio,0.5,1.5
+India,Basic Materials,roe,Return on equity,15.0,
+India,Basic Materials,roa,Return on assets,5.0,
+India,Basic Materials,roic,Return on invested capital,10.0,
+India,Basic Materials,gross_m,Gross margin,30.0,
+India,Basic Materials,op_m,Operating margin,15.0,
+India,Basic Materials,net_m,Net margin,10.0,
+India,Basic Materials,rev_g,Revenue growth (YoY),5.0,
+India,Basic Materials,earn_g,Earnings growth (YoY),5.0,
+India,Basic Materials,eps_g,Quarterly earnings growth,5.0,
+India,Basic Materials,de,Debt / Equity,0.0,1
+India,Basic Materials,current,Current ratio,1.2,3
+India,Basic Materials,quick,Quick ratio,1.0,2.5
+India,Basic Materials,int_cov,Interest coverage,3.0,
+India,Basic Materials,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Basic Materials,fcf_y,Free cash flow yield,3.0,
+India,Basic Materials,div_y,Dividend yield,1.0,
+India,Basic Materials,ret,Price return,0.0,
+India,Basic Materials,vol,Volatility (annualised),0.0,35
+India,Basic Materials,mdd,Maximum drawdown,-25.0,0
+India,Basic Materials,rsi,RSI (14),40.0,65
+India,Basic Materials,sharpe,Sharpe ratio,1.0,
+India,Communication Services,pe,P/E (trailing),10.0,25
+India,Communication Services,fwd_pe,Forward P/E,8.0,22
+India,Communication Services,pb,Price / Book,1.0,4
+India,Communication Services,ps,Price / Sales,1.0,5
+India,Communication Services,ev_ebitda,EV / EBITDA,6.0,15
+India,Communication Services,peg,PEG ratio,0.5,1.5
+India,Communication Services,roe,Return on equity,15.0,
+India,Communication Services,roa,Return on assets,5.0,
+India,Communication Services,roic,Return on invested capital,10.0,
+India,Communication Services,gross_m,Gross margin,30.0,
+India,Communication Services,op_m,Operating margin,15.0,
+India,Communication Services,net_m,Net margin,10.0,
+India,Communication Services,rev_g,Revenue growth (YoY),5.0,
+India,Communication Services,earn_g,Earnings growth (YoY),5.0,
+India,Communication Services,eps_g,Quarterly earnings growth,5.0,
+India,Communication Services,de,Debt / Equity,0.0,1
+India,Communication Services,current,Current ratio,1.2,3
+India,Communication Services,quick,Quick ratio,1.0,2.5
+India,Communication Services,int_cov,Interest coverage,3.0,
+India,Communication Services,nd_ebitda,Net debt / EBITDA,0.0,3
+India,Communication Services,fcf_y,Free cash flow yield,3.0,
+India,Communication Services,div_y,Dividend yield,1.0,
+India,Communication Services,ret,Price return,0.0,
+India,Communication Services,vol,Volatility (annualised),0.0,35
+India,Communication Services,mdd,Maximum drawdown,-25.0,0
+India,Communication Services,rsi,RSI (14),40.0,65
+India,Communication Services,sharpe,Sharpe ratio,1.0,

@@ -1,0 +1,6 @@
+flask
+gunicorn
+yfinance>=0.2.60
+pandas
+numpy
+openpyxl
